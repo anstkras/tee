@@ -132,7 +132,7 @@ public final class Tee {
                         return Options.VERSION;
                     case "--append":
                         append = true;
-                        break;
+                        continue;
                     default:
                         return new WrongOption(arg);
                 }
